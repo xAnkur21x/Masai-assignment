@@ -47,7 +47,7 @@ function addProduct() {
         return;
     }
 
-    // Add the new product to the products array
+    // Add the new product to the products array1
     products.push({ name, price, rating });
 
     // Render the updated graphs done
