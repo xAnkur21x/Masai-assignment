@@ -50,7 +50,7 @@ function addProduct() {
     // Add the new product to the products array
     products.push({ name, price, rating });
 
-    // Render the updated graphs
+    // Render the updated graphs done
     renderGraphs();
 
     // Clear input fields after adding the product
