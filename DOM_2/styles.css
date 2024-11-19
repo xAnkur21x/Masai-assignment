@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.input-form {
+    margin: 20px 0;
+}
+
+.input-form input {
+    padding: 10px;
+    margin: 5px;
+    width: 20%;
+}
+
+.input-form button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.sort-buttons {
+    margin: 20px 0;
+}
+
+.sort-buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.bar-graph {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 300px;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+    background-color: #fff;
+    overflow-x: auto;
+    padding: 10px;
+}
+
+.bar {
+    margin: 0 10px;
+    background-color: #4caf50;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.bar span {
+    padding: 5px;
+}
+
+.bar-price {
+    background-color: #2196f3;
+}
+
+.bar-rating {
+    background-color: #ff9800;
+}
